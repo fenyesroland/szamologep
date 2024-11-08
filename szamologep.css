@@ -1,0 +1,83 @@
+body{
+    background: url(majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.KulsoDiv{
+    border: 4px solid rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    padding: 0px 2px 2px 2px;
+}
+.screenDiv input{
+    font-size: 30px;
+    height: 60px;
+    width: 311px;
+    text-align: right;
+    border: none;
+    background: transparent;
+    color: white;
+    
+}
+.gombokDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 6px;
+    column-gap: 6px;
+    background-color: rgb(17, 17, 17);
+    padding: 0px 10px 0px 10px;
+    
+}
+.cButtonDiv{
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    padding: 5px 10px;
+    justify-content: right;
+
+}
+.alsoGombok{
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    padding: 5px 10px;
+    gap: 6px;
+    justify-content: right;
+}
+.gombokDiv button,
+.cButtonDiv button,
+.alsoGombok button{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    background-color: rgb(56, 56, 56);
+    
+}
+.alsoGombok .buttonEgyenlo{
+    background-color: hsl(35, 100%, 55%);
+}
+button{
+    transition: 0.15s;
+}
+button:hover{
+    background-color: hsl(0, 0%, 30%);
+}
+button:active{
+    background-color: hsl(0, 0%, 40%);
+}
+.alsoGombok .buttonEgyenlo:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.alsoGombok .buttonEgyenlo:active{
+    background-color: hsl(35, 100%, 75%);
+}
